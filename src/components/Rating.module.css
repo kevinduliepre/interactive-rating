@@ -1,0 +1,51 @@
+.panel {
+  background-color: rgb(29, 36, 46);
+  border-radius: 15px;
+  width: 360px;
+  padding: 20px;
+}
+
+.icon {
+  background-color: hsl(213, 20%, 18%);
+  padding: 8px;
+  border-radius: 50%;
+  color: var(--clr-primary);
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(37, 46, 55);
+}
+
+.rating button:hover {
+  background-color: var(--clr-text);
+  color: #ffffff;
+}
+
+.rating button:focus {
+  background-color: var(--clr-primary);
+  color: #ffffff;
+}
+
+.ratingSelected {
+  background-color: rgb(37, 46, 55);
+  color: var(--clr-primary);
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
